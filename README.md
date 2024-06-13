@@ -1,20 +1,4 @@
 # DevOps Tips and Tricks
 
-## AWS Login
-
-1. Download script
-
-```bash
-curl -LO https://raw.githubusercontent.com/Cyberglamdring/devops-tricks/main/aws-sts-get-token.sh
-```
-
-2. Permisisons and Alias
-
-```bash
-chmod +x aws-sts-get-token.sh && alias awslogin="$HOME/aws-sts-get-token.sh"
-```
-
-3. Usage
-```bash
-awslogin
-```
+* `aws_mod_instances_IMDSv2.sh` - This script will enable IMDSv2 on all instances in the account.
+* `aws_sts_get_token.sh` - This script will get a session token for a role.
